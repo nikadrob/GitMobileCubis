@@ -1,0 +1,15 @@
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\bin\Debug\netstandard2.0\MojeOsiguranje.deps.json
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\bin\Debug\netstandard2.0\MojeOsiguranje.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\bin\Debug\netstandard2.0\ref\MojeOsiguranje.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\bin\Debug\netstandard2.0\MojeOsiguranje.pdb
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.csprojAssemblyReference.cache
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.csproj.CoreCompileInputs.cache
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.AssemblyInfoInputs.cache
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.AssemblyInfo.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\ref\MojeOsiguranje.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.pdb
