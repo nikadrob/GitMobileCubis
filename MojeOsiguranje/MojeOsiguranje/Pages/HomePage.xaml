@@ -4,11 +4,18 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="MojeOsiguranje.Pages.HomePage"
-             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            android:TabbedPage.ToolbarPlacement="Bottom">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+            xmlns:pages="clr-namespace:MojeOsiguranje.Pages;assembly=MojeOsiguranje"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            x:Class="MojeOsiguranje.Pages.HomePage"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            Title="Moje Osiguranje"
+            BarTextColor="#234693"
+            BarBackgroundColor="#a3ceff"
+            SelectedTabColor="#2f73be"
+            UnselectedTabColor="#77ace6"
+            >
+    <!--Pages can be added as references or inline-->
+    <pages:MenuPage Title="Proizvodi" Icon="menu.png" />
+    <pages:MessagePage Title="Poruke" Icon="message.png" />
+    <pages:InfoPage Title="Informacije" Icon="info.png" />
 </TabbedPage>

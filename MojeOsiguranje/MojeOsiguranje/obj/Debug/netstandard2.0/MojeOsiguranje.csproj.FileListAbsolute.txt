@@ -13,3 +13,7 @@ D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.
 D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.dll
 D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\ref\MojeOsiguranje.dll
 D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.pdb
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\MenuPage.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\SubMenuPage.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\InfoPage.xaml.g.cs
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\MessagePage.xaml.g.cs
