@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj": {}
+    "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj": {}
   },
   "projects": {
-    "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj": {
+    "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj",
+        "projectUniqueName": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj",
         "projectName": "MojeOsiguranje.Android",
-        "projectPath": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj",
-        "packagesPath": "C:\\Users\\sinisa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\obj\\",
+        "projectPath": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\MojeOsiguranje.Android.csproj",
+        "packagesPath": "C:\\Users\\nikad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\sinisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nikad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj": {
-                "projectPath": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj"
+              "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj": {
+                "projectPath": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj"
               }
             }
           }
@@ -82,21 +82,21 @@
         }
       }
     },
-    "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj": {
+    "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj",
+        "projectUniqueName": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj",
         "projectName": "MojeOsiguranje",
-        "projectPath": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj",
-        "packagesPath": "C:\\Users\\sinisa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitRepos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\obj\\",
+        "projectPath": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\MojeOsiguranje.csproj",
+        "packagesPath": "C:\\Users\\nikad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikad\\source\\repos\\GitMobileCubis\\MojeOsiguranje\\MojeOsiguranje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sinisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nikad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

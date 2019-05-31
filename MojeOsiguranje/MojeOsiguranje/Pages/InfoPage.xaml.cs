@@ -44,7 +44,7 @@ namespace MojeOsiguranje.Pages
 
         private void TapCall_OnTapped(object sender, EventArgs e)
         {
-            //PhoneDialer.Open("996545231232");
+            Device.OpenUri(new Uri("mailto:info@dunav.com"));
         }
     }
 }

@@ -18,14 +18,14 @@
 
             <StackLayout Grid.Row="1">
                 <Label Text="BESPLATAN POZIV" TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
-                <Label Text="0800 386 286" TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="0800 386 286" HorizontalOptions="Center" FontSize="Large"/>
                 <Label Text="Možete nas kontaktirati i putem vibera:" HorizontalOptions="Center" FontSize="Medium"/>
                 <Label Text="+38166 8258 600" HorizontalOptions="Center" FontSize="Medium"/>
             </StackLayout>
             <StackLayout Grid.Row="2">
                 <Label Text="RADNO VREME" TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
-                <Label Text="Radnim danima od 07:30-19:30" TextColor="Black" HorizontalOptions="Center" FontSize="Medium"/>
-                <Label Text="Subotom od 09:00-14:00 časova" TextColor="Black" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Radnim danima od 07:30-19:30" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Subotom od 09:00-14:00 časova" HorizontalOptions="Center" FontSize="Medium"/>
             </StackLayout>
             <StackLayout Grid.Row="3" HorizontalOptions="Center" Orientation="Horizontal">
                 <Image Source="facebook.png">
@@ -50,8 +50,8 @@
                 </Image>
             </StackLayout>
             <StackLayout Grid.Row="4">
-                <Label Text="E_MAIL" TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
-                <Image Source="phone.png">
+                <Label Text="E-MAIL" TextColor="Black" HorizontalOptions="Center" FontSize="Large"/>
+                <Image Source="mail.png">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer x:Name="TapCall" NumberOfTapsRequired="1" Tapped="TapCall_OnTapped"/>
                 </Image.GestureRecognizers>

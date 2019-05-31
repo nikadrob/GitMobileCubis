@@ -5468,6 +5468,15 @@ namespace MojeOsiguranje.Droid
 		public partial class Drawable
 		{
 			
+			// aapt resource value: 0x7F010015
+			public const int 128 = 2130771989;
+			
+			// aapt resource value: 0x7F010013
+			public const int 64 = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int 96 = 2130771988;
+			
 			// aapt resource value: 0x7F090001
 			public const int abc_ab_share_pack_mtrl_alpha = 2131296257;
 			
@@ -6294,10 +6303,13 @@ namespace MojeOsiguranje.Droid
 			public const int instagram = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int menu = 2130771973;
+			public const int mail = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int message = 2130771974;
+			public const int menu = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int message = 2130771975;
 			
 			// aapt resource value: 0x7F090106
 			public const int mr_button_connected_dark = 2131296518;
@@ -6404,14 +6416,14 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010007
-			public const int phone = 2130771975;
-			
 			// aapt resource value: 0x7F010008
-			public const int placeholderimage = 2130771976;
+			public const int phone = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int submenu = 2130771977;
+			public const int placeholderimage = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int submenu = 2130771984;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -6419,11 +6431,11 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F090070
 			public const int tooltip_frame_light = 2131296368;
 			
-			// aapt resource value: 0x7F010010
-			public const int twitter = 2130771984;
-			
 			// aapt resource value: 0x7F010011
-			public const int youtube = 2130771985;
+			public const int twitter = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int youtube = 2130771986;
 			
 			static Drawable()
 			{
