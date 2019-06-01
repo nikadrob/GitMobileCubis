@@ -5468,15 +5468,6 @@ namespace MojeOsiguranje.Droid
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7F010015
-			public const int 128 = 2130771989;
-			
-			// aapt resource value: 0x7F010013
-			public const int 64 = 2130771987;
-			
-			// aapt resource value: 0x7F010014
-			public const int 96 = 2130771988;
-			
 			// aapt resource value: 0x7F090001
 			public const int abc_ab_share_pack_mtrl_alpha = 2131296257;
 			

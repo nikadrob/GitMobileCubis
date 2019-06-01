@@ -9,7 +9,7 @@
             x:Class="MojeOsiguranje.Pages.HomePage"
             android:TabbedPage.ToolbarPlacement="Bottom"
             Title="Moje Osiguranje"
-            BarTextColor="#234693"
+            BarTextColor="#1d3875"
             BarBackgroundColor="#a3ceff"
             SelectedTabColor="#2f73be"
             UnselectedTabColor="#77ace6"

@@ -13,5 +13,7 @@ namespace MojeOsiguranje.Model
         public string Opis { get; set; }
 
         public string Image { get; set; }
+
+        public int NadMeni { get; set; }
     }
 }

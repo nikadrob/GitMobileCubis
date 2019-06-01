@@ -15,7 +15,5 @@ namespace MojeOsiguranje.Model
         public int Rbr { get; set; }
 
         public string Image { get; set; }
-
-        public int PodmeniId { get; set; }
     }
 }
