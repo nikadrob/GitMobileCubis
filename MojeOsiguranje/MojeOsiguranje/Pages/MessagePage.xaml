@@ -6,10 +6,25 @@
              mc:Ignorable="d"
              x:Class="MojeOsiguranje.Pages.MessagePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Message!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="10">
+            <Entry x:Name="EntName" Placeholder="Vaše ime i prezime" />
+            <Entry x:Name="EntEmail" Placeholder="E-mail" />
+            <Picker Title="Tema pitanja" x:Name="Gender" HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>Osiguranje motornih vozila</x:String>
+                    <x:String>Životno osiguranje</x:String>
+                    <x:String>Osiguranje imovine</x:String>
+                    <x:String>Osiguranje transporta</x:String>
+                    <x:String>Osiguranje kredita</x:String>
+                    <x:String>Osiguranje od odgovornosti</x:String>
+                    <x:String>Osiguranje poljoprivrede</x:String>
+                    <x:String>Marketing</x:String>
+                    <x:String>Drugo</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Poruka:" Margin="5"  FontSize="Medium"/>
+            <Editor BackgroundColor="#dcecfe" FontSize="Small" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Editor>
+            <Button x:Name="BtnBookTable" Clicked="BtnBookTable_OnClicked" Text="Pošalji poruku" TextColor="White" FontSize="Medium" BackgroundColor="#2f73be" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

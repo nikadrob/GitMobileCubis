@@ -16,5 +16,9 @@ namespace MojeOsiguranje.Pages
         {
             InitializeComponent();
         }
+
+        private async void BtnBookTable_OnClicked(object sender, EventArgs e)
+        {
+        }
     }
 }
