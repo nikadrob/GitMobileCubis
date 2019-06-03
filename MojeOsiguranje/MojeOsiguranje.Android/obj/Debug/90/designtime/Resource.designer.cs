@@ -5745,7 +5745,10 @@ namespace MojeOsiguranje.Droid
 			public const int design_snackbar_background = 2131296348;
 			
 			// aapt resource value: 0x7F010002
-			public const int facebook = 2130771970;
+			public const int dunav = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int facebook = 2130771971;
 			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
@@ -6287,20 +6290,20 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F090105
 			public const int ic_vol_type_tv_light = 2131296517;
 			
-			// aapt resource value: 0x7F010003
-			public const int info = 2130771971;
-			
 			// aapt resource value: 0x7F010004
-			public const int instagram = 2130771972;
+			public const int info = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int mail = 2130771973;
+			public const int instagram = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int menu = 2130771974;
+			public const int mail = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int message = 2130771975;
+			public const int menu = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int message = 2130771976;
 			
 			// aapt resource value: 0x7F090106
 			public const int mr_button_connected_dark = 2131296518;
@@ -6371,6 +6374,9 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F090062
 			public const int navigation_empty_icon = 2131296354;
 			
+			// aapt resource value: 0x7F010009
+			public const int noData = 2130771977;
+			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
 			
@@ -6407,14 +6413,14 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010008
-			public const int phone = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int placeholderimage = 2130771977;
-			
 			// aapt resource value: 0x7F010010
-			public const int submenu = 2130771984;
+			public const int phone = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int placeholderimage = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int submenu = 2130771986;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -6422,11 +6428,11 @@ namespace MojeOsiguranje.Droid
 			// aapt resource value: 0x7F090070
 			public const int tooltip_frame_light = 2131296368;
 			
-			// aapt resource value: 0x7F010011
-			public const int twitter = 2130771985;
+			// aapt resource value: 0x7F010013
+			public const int twitter = 2130771987;
 			
-			// aapt resource value: 0x7F010012
-			public const int youtube = 2130771986;
+			// aapt resource value: 0x7F010014
+			public const int youtube = 2130771988;
 			
 			static Drawable()
 			{

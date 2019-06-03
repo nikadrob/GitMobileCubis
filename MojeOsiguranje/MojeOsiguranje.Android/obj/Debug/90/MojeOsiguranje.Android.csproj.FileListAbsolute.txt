@@ -1144,3 +1144,11 @@ C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\android\assets\System.Runtime.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable\mail.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable-hdpi\mail.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable-xhdpi\mail.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable-xxhdpi\mail.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable-xxxhdpi\mail.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable\dunav.png
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\android\assets\System.Runtime.dll
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje.Android\obj\Debug\90\res\drawable\nodata.png

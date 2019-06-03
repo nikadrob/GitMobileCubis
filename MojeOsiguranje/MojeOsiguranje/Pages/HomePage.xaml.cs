@@ -15,6 +15,8 @@ namespace MojeOsiguranje.Pages
         public HomePage()
         {
             InitializeComponent();
+
+            NavigationPage.SetTitleIconImageSource(this, "dunav.png");
         }
     }
 }

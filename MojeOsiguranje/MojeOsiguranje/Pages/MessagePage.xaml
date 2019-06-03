@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="MojeOsiguranje.Pages.MessagePage">
     <ContentPage.Content>
-        <StackLayout Margin="10">
+
+            <StackLayout Margin="10">
             <Entry x:Name="EntName" Placeholder="Vaše ime i prezime" />
             <Entry x:Name="EntEmail" Placeholder="E-mail" />
             <Picker Title="Tema pitanja" x:Name="Gender" HorizontalOptions="FillAndExpand">
@@ -23,7 +24,9 @@
                 </Picker.Items>
             </Picker>
             <Label Text="Poruka:" Margin="5"  FontSize="Medium"/>
-            <Editor BackgroundColor="#dcecfe" FontSize="Small" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Editor>
+            <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Editor  FontSize="Small" ></Editor>
+            </Frame>
             <Button x:Name="BtnBookTable" Clicked="BtnBookTable_OnClicked" Text="Pošalji poruku" TextColor="White" FontSize="Medium" BackgroundColor="#2f73be" />
         </StackLayout>
     </ContentPage.Content>

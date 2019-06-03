@@ -6,18 +6,22 @@
              mc:Ignorable="d"
              x:Class="MojeOsiguranje.Pages.MenuPage">
     <ContentPage.Content>
-        <ListView SeparatorVisibility="Default"  HasUnevenRows="True" x:Name="LvMenu">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid>
-                            <Image Source="{Binding Image}"  HeightRequest="200" Aspect="Fill"></Image>
-                            <BoxView BackgroundColor="Gray" Opacity="0.25"></BoxView>
-                            <Label Text="{Binding Opis}" FontSize="Large" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"></Label>
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <Grid>
+            <ListView SeparatorVisibility="Default" HasUnevenRows="True" x:Name="LvMenu" ItemSelected="LvMenu_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Image Source="{Binding Image}"  HeightRequest="160" Aspect="Fill"></Image>
+                                <BoxView BackgroundColor="Gray" Opacity="0.25"></BoxView>
+                                <Label Text="{Binding Opis}" FontSize="Large" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ActivityIndicator x:Name="BusyIndicator" HorizontalOptions="Center" VerticalOptions="Center"
+                               Color="#FF5722" IsRunning="True"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

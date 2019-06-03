@@ -23,15 +23,9 @@ namespace MojeOsiguranje.Pages
             InitializeComponent();
             Menus = new ObservableCollection<Meni>();
 
-            //ApiMockData apiData = new ApiMockData();
-            //var menus = apiData.GetMenu();
-            //foreach(var m in menus)
-            //{
-            //    Menus.Add(m);
-            //}
-            //LvMenu.ItemsSource = Menus;
             if (First)
             {
+
                 ApiMockData apiMock = new ApiMockData();
                 var menus = apiMock.GetMenu();
 
@@ -41,12 +35,24 @@ namespace MojeOsiguranje.Pages
                 }
 
                 LvMenu.ItemsSource = Menus;
-                //BusyIndicator.IsRunning = false;
+                BusyIndicator.IsRunning = false;
             }
 
             First = false;
         }
 
+        private void LvMenu_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var selectedMenu = (Meni)e.SelectedItem;
 
+            if (selectedMenu != null)
+            {
+                int iMeni = selectedMenu.Id;
+                string xKategorija = selectedMenu.Opis;
+                Navigation.PushAsync(new DetailPage(iMeni, xKategorija));
+            }
+
+            ((ListView)sender).SelectedItem = null;
+        }
     }
 }

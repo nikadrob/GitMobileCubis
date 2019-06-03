@@ -36,3 +36,4 @@ C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Deb
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.dll
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\ref\MojeOsiguranje.dll
 C:\Users\nikad\source\repos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\MojeOsiguranje.pdb
+D:\GitRepos\GitMobileCubis\MojeOsiguranje\MojeOsiguranje\obj\Debug\netstandard2.0\Pages\DetailPage.xaml.g.cs

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MojeOsiguranje.Pages.DetailPage">
+    
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout x:Name="mainStack" IsVisible="True">
+                <ListView SeparatorVisibility="None"  HasUnevenRows="True" x:Name="LvDetail">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <!--<ViewCell>
+                                <ContentView Style="{StaticResource BorderStyle}">
+                                    <StackLayout  VerticalOptions="Start" Margin="10"  Style="{StaticResource InternalViewStyle}">
+                                        <Label Text="Polica broj: " FontSize="Small" TextColor="Black"></Label>
+                                        <Label Text="{Binding Broj}" FontSize="Small" TextColor="Black"></Label>
+                                        <Label Text="{Binding Proizvod}" FontSize="Small" TextColor="Black" HorizontalOptions="Center"></Label>
+                                        <Label Text="{Binding Opis}" FontSize="Small" TextColor="Black" HorizontalOptions="Center"></Label>
+                                    </StackLayout>
+                                </ContentView>
+
+                            </ViewCell>-->
+                            <ViewCell>
+                                <ContentView Padding="10">
+                                    <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10">
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout>
+                                                <Label Text="{Binding Broj, StringFormat='Broj police:  {0}' }" FontSize="Small" FontAttributes="Bold"  VerticalOptions="StartAndExpand" />
+                                                <Label Text="{Binding Opis}" FontSize="Small" VerticalOptions="CenterAndExpand" />
+                                                <Label Text="{Binding Premija, StringFormat = 'Premija:  {0}'}" FontSize="Small" VerticalOptions="CenterAndExpand" />
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </ContentView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout  x:Name="noDataStack" IsVisible="False" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label  Text="Ne postoje ugovorene police u kategoriji:" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Label x:Name="lblNoData" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Image Source="noData.png" HorizontalOptions="Center"></Image>
+            </StackLayout>
+            <ActivityIndicator x:Name="BusyIndicator" HorizontalOptions="Center" VerticalOptions="Center"
+                               Color="#FF5722" IsRunning="True"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
