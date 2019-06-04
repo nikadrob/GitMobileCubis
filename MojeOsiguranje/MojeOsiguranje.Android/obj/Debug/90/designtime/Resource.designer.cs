@@ -7495,14 +7495,17 @@ namespace MojeOsiguranje.Droid
 		public partial class Mipmap
 		{
 			
+			// aapt resource value: 0x7F040004
+			public const int dunav = 2130968580;
+			
 			// aapt resource value: 0x7F040002
 			public const int icon = 2130968578;
 			
 			// aapt resource value: 0x7F040003
 			public const int icon_round = 2130968579;
 			
-			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{

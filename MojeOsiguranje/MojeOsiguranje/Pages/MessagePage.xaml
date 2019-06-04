@@ -27,7 +27,7 @@
             <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Editor  FontSize="Small" ></Editor>
             </Frame>
-            <Button x:Name="BtnBookTable" Clicked="BtnBookTable_OnClicked" Text="Pošalji poruku" TextColor="White" FontSize="Medium" BackgroundColor="#2f73be" />
+            <Button x:Name="BtnBookTable" Clicked="BtnBookTable_OnClicked" Text="Pošalji poruku" TextColor="White" FontSize="Medium" BackgroundColor="#77ace6" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

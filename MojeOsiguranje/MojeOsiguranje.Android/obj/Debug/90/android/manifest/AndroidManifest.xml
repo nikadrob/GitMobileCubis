@@ -5,8 +5,8 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="MojeOsiguranje.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="MojeOsiguranje" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md5a4948f0e58cb086e7642913cafb2ef85.MainActivity">
+  <application android:label="MojeOsiguranje.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/dunav" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/dunav" android:label="MojeOsiguranje" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md5a4948f0e58cb086e7642913cafb2ef85.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

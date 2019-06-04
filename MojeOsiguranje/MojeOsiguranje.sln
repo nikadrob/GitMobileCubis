@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojeOsiguranje.Android", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojeOsiguranje.iOS", "MojeOsiguranje.iOS\MojeOsiguranje.iOS.csproj", "{E99DDE38-71E8-47B8-B02A-897A0EDCFC5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojeOsiguranje", "MojeOsiguranje\MojeOsiguranje.csproj", "{C012B09D-89DE-4943-AE40-505AD92F65FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MojeOsiguranje", "MojeOsiguranje\MojeOsiguranje.csproj", "{C012B09D-89DE-4943-AE40-505AD92F65FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,17 +12,6 @@
                 <ListView SeparatorVisibility="None"  HasUnevenRows="True" x:Name="LvDetail">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <!--<ViewCell>
-                                <ContentView Style="{StaticResource BorderStyle}">
-                                    <StackLayout  VerticalOptions="Start" Margin="10"  Style="{StaticResource InternalViewStyle}">
-                                        <Label Text="Polica broj: " FontSize="Small" TextColor="Black"></Label>
-                                        <Label Text="{Binding Broj}" FontSize="Small" TextColor="Black"></Label>
-                                        <Label Text="{Binding Proizvod}" FontSize="Small" TextColor="Black" HorizontalOptions="Center"></Label>
-                                        <Label Text="{Binding Opis}" FontSize="Small" TextColor="Black" HorizontalOptions="Center"></Label>
-                                    </StackLayout>
-                                </ContentView>
-
-                            </ViewCell>-->
                             <ViewCell>
                                 <ContentView Padding="10">
                                     <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10">

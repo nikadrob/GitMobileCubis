@@ -111,6 +111,10 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "MojeOsiguranje.Android.dll" comes first in this list. */
 		"MojeOsiguranje.Android.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Platform.dll",
+		"FFImageLoading.Platform.dll",
 		"FormsViewGroup.dll",
 		"MojeOsiguranje.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
