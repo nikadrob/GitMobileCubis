@@ -16,6 +16,8 @@ namespace MojeOsiguranje.Model
 
         public string Telefon { get; set; }
 
+        public string Tema { get; set; }
+
         public string Datum { get; set; }
 
         public string Vrijeme { get; set; }

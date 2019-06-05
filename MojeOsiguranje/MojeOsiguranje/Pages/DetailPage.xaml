@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MojeOsiguranje.Pages.DetailPage">
-    
+
     <ContentPage.Content>
         <Grid>
             <StackLayout x:Name="mainStack" IsVisible="True">
@@ -13,15 +13,33 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <ContentView Padding="10">
+                                <ContentView Padding="10" BackgroundColor="White">
                                     <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10">
-                                        <StackLayout Orientation="Horizontal">
-                                            <StackLayout>
-                                                <Label Text="{Binding Broj, StringFormat='Broj police:  {0}' }" FontSize="Small" FontAttributes="Bold"  VerticalOptions="StartAndExpand" />
-                                                <Label Text="{Binding Opis}" FontSize="Small" VerticalOptions="CenterAndExpand" />
-                                                <Label Text="{Binding Premija, StringFormat = 'Premija:  {0}'}" FontSize="Small" VerticalOptions="CenterAndExpand" />
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="80" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="2*" />
+                                                <ColumnDefinition Width="1*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+                                                <StackLayout>
+                                                    <Label Text="{Binding Broj, StringFormat='Broj police:  {0}' }" FontSize="Small" FontAttributes="Bold"  VerticalOptions="StartAndExpand" />
+                                                    <Label Text="{Binding Opis}" FontSize="12" FontAttributes="Bold" VerticalOptions="StartAndExpand" />
+                                                    <StackLayout Orientation="Horizontal">
+                                                        <Label Text="{Binding pocDate, StringFormat='Trajanje: {0:dd.MM.yyyy}' }" FontSize="12" FontAttributes="Bold" VerticalOptions="StartAndExpand" />
+                                                        <Label Text="{Binding istDate, StringFormat='- {0:dd.MM.yyyy}' }" FontSize="12" FontAttributes="Bold" VerticalOptions="StartAndExpand" />
+                                                    </StackLayout>
+                                                    <Label Text="{Binding Premija, StringFormat = 'Premija:  {0}'}" FontSize="12" FontAttributes="Bold" VerticalOptions="StartAndExpand" />
+                                                </StackLayout>
                                             </StackLayout>
-                                        </StackLayout>
+
+                                            <StackLayout Orientation="Vertical" Grid.Row="0" Grid.Column="1">
+                                                <Button BackgroundColor="#77ace6" Text="Izmjena police" FontSize="Micro" FontAttributes="Bold" Clicked="btnIzmjena_Clicked" HeightRequest="36"></Button>
+                                                <Button BackgroundColor="#fe80a1" Text="Prijava štete" FontSize="Micro" FontAttributes="Bold" Clicked="btnPrijava_Clicked" HeightRequest="36"></Button>
+                                            </StackLayout>
+                                        </Grid>
                                     </Frame>
                                 </ContentView>
                             </ViewCell>
@@ -30,12 +48,13 @@
                 </ListView>
             </StackLayout>
             <StackLayout  x:Name="noDataStack" IsVisible="False" VerticalOptions="Center" HorizontalOptions="Center">
+                <Image Source="noData.png" HorizontalOptions="Center"></Image>
                 <Label  Text="Ne postoje ugovorene police u kategoriji:" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
                 <Label x:Name="lblNoData" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
-                <Image Source="noData.png" HorizontalOptions="Center"></Image>
             </StackLayout>
             <ActivityIndicator x:Name="BusyIndicator" HorizontalOptions="Center" VerticalOptions="Center"
                                Color="#FF5722" IsRunning="True"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
+    

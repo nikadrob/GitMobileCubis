@@ -10,8 +10,10 @@
             <StackLayout Margin="10">
             <Entry x:Name="EntName" Placeholder="Vaše ime i prezime" />
             <Entry x:Name="EntEmail" Placeholder="E-mail" />
-            <Picker Title="Tema pitanja" x:Name="Gender" HorizontalOptions="FillAndExpand">
+            <Picker x:Name="EntTema" Title="Tema pitanja" HorizontalOptions="FillAndExpand">
                 <Picker.Items>
+                    <x:String>Izmjena police</x:String>
+                    <x:String>Prijava štete</x:String>
                     <x:String>Osiguranje motornih vozila</x:String>
                     <x:String>Životno osiguranje</x:String>
                     <x:String>Osiguranje imovine</x:String>
@@ -25,7 +27,7 @@
             </Picker>
             <Label Text="Poruka:" Margin="5"  FontSize="Medium"/>
             <Frame OutlineColor="#b2d5fd" BackgroundColor="#e7f2ff" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Editor  FontSize="Small" ></Editor>
+                <Editor x:Name="EntEditor" FontSize="Small" ></Editor>
             </Frame>
             <Button x:Name="BtnBookTable" Clicked="BtnBookTable_OnClicked" Text="Pošalji poruku" TextColor="White" FontSize="Medium" BackgroundColor="#77ace6" />
         </StackLayout>

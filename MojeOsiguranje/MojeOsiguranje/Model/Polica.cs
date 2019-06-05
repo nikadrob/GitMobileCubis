@@ -12,6 +12,10 @@ namespace MojeOsiguranje.Model
 
         public string Opis { get; set; }
 
+        public string UgoNaz { get; set; }
+
+        public string UgoEmail { get; set; }
+
         public DateTime pocDate { get; set; }
 
         public DateTime istDate { get; set; }

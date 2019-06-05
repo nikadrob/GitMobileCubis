@@ -54,12 +54,21 @@ namespace MojeOsiguranje.Pages
 
                 foreach (var p in police)
                 {
-                    Police.Add(p);
-                    
+                    Police.Add(p);                 
                 }
 
                 LvDetail.ItemsSource = Police;
             }
+        }
+
+        private void btnIzmjena_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MessagePage(1, "IZMJENA"));
+        }
+
+        private void btnPrijava_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MessagePage(2, "PRIJAVA"));
         }
     }
 }
